@@ -9,7 +9,8 @@ button{
   border: 1px solid black;
   border-radius: 10px;
   padding: 15px;
-  background-color: #f7f7f7;
+  background-color: rgb(177, 19, 19);
+  color: white;
 }
 
 .resposta{
@@ -25,4 +26,28 @@ button{
 
 h3{
   font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: rgb(177, 19, 19);
+  color: white;
+}
+
+
+.rodape{
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+	height: 150px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+
+  font-family: arial;
+  width: 100%;
 }
